@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>J. Stam - Personal Portfolio Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Google Web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--HOME-->
+    <section class="home video-section" id="home">
+        <div class="home-content">
+            <div class="home-video">
+                <div id="P1" class="player" style="display:block;height:100%; background: rgba(0,0,0,0.5)" data-property="{videoURL:'https://youtu.be/D_oEKXSd2Dw',containment:'self',showControls:true,startAt:0,mute:true,autoPlay:true,loop:true,opacity:1,showYTLogo:true, optimizeDisplay:true}"></div>
+                <!--3ovA7zeviRo-->
+            </div>
+        </div>
+    </section>
+
+    <!-- Javascripts -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mb.YTPlayer.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        jQuery(document).ready(function() {
+            $(function() {
+                jQuery("#P1").YTPlayer();
+            });
+        });
+
+    </script>
+</body>
+
+</html>
